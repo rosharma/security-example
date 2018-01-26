@@ -1,0 +1,3 @@
+GET     /privileges     @com.rew3.resources.SecurityController.privileges
+GET     /entities       @com.rew3.resources.SecurityController.entities
+GET     /accessLevels   @com.rew3.resources.SecurityController.accessLevel
