@@ -7,6 +7,8 @@ class User {
 
 }
 
+class Team (isPrivate: Boolean = true, isPublic: Boolean = false)
+
 /**
  *
  */
