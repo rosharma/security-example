@@ -27,8 +27,9 @@ See [SharingService](app/com/rew3/security/service/SharingService.scala) for mor
     * Admin — Indicates that a user is a group manager. Managers can post and comment, change member roles, edit group settings, add and remove members, delete posts and comments, and edit the group information field.
 
     These "standard" and "admin" are special cases. May be we need to add one more layer to check these ***CollaborationRole***.
+2. In the nested entity cases, create a workflow to manage the security. For e.g. Account is related to Contact, Case, Lead etc. If someone's role enable to edit Account but can't view the Contact. In this case how to manage him to view only contact linked with this Account?
 
-#### References
+### References
 * [Role Based Security](https://msdn.microsoft.com/en-us/library/gg334717.aspx)
 * [Record Based Security](https://msdn.microsoft.com/en-us/library/gg334673.aspx)
 * [Managing Role From UI](https://ukcrmguru.files.wordpress.com/2015/02/system-administrator-security-role.png)
