@@ -1,3 +1,11 @@
+# Security Concepts
+The security model promotes efficient data access and collaboration. The goals of the model are as follows:
+- Provide a multi-tiered licensing model for users.
+- Grant users access that allows only the levels of information required to do their jobs.
+- Categorize users and teams by security role and restrict access based on those roles.
+- Support data sharing so that users can be granted access to objects they do not own for a one-time collaborative effort.
+- Prevent access to objects a user does not own or share.
+
 ## Security Services
 There are two types of security:
 1. Role-Based

@@ -7,6 +7,12 @@ class User {
 
 }
 
+/**
+ * Teams are used primarily for sharing records that team members ordinarily couldn't access.
+ *
+ * @param isPrivate
+ * @param isPublic
+ */
 class Team (isPrivate: Boolean = true, isPublic: Boolean = false)
 
 /**
