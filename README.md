@@ -28,7 +28,7 @@ See [SharingService](app/com/rew3/security/service/SharingService.scala) for mor
 
     These "standard" and "admin" are special cases. May be we need to add one more layer to check these ***CollaborationRole***.
 
-References
-[Role Based Security](https://msdn.microsoft.com/en-us/library/gg334717.aspx)
-[Record Based Security](https://msdn.microsoft.com/en-us/library/gg334673.aspx)
-[Managing Role From UI](https://ukcrmguru.files.wordpress.com/2015/02/system-administrator-security-role.png)
+#### References
+* [Role Based Security](https://msdn.microsoft.com/en-us/library/gg334717.aspx)
+* [Record Based Security](https://msdn.microsoft.com/en-us/library/gg334673.aspx)
+* [Managing Role From UI](https://ukcrmguru.files.wordpress.com/2015/02/system-administrator-security-role.png)
