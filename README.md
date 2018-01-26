@@ -31,3 +31,4 @@ See [SharingService](app/com/rew3/security/service/SharingService.scala) for mor
 References
 [Role Based Security](https://msdn.microsoft.com/en-us/library/gg334717.aspx)
 [Record Based Security](https://msdn.microsoft.com/en-us/library/gg334673.aspx)
+[Managing Role From UI](https://ukcrmguru.files.wordpress.com/2015/02/system-administrator-security-role.png)
