@@ -12,7 +12,7 @@ object Entities {
 
   //We will store the name entities in the database
   //Any future entities needs to be added in the database
-  val map = Map("Account" -> new Account, "Contact" -> new Contact) //TODO Replace this map with DB
+  val map = Map("Account" -> new Account(), "Contact" -> new Contact()) //TODO Replace this map with DB
 
   //Get entity from the database
   def getEntity(logicalName: String) = map.get(logicalName)

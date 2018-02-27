@@ -19,13 +19,13 @@ class AccountController extends Controller{
 
   def accounts = Action.async {request =>
 
-    val query = """{account(id: "2"){name}}"""
+    val query = """{account(id: "12345"){name, author}}"""
 
     //val operation = (request.body \ "operationName").asOpt[String]
 
     QueryParser.parse(query) match {
       case Success(queryAst) =>
-        val result: Future[Json] = Executor.execute(AccountSchema.schema, queryAst, new Account)
+        val result: Future[Json] = Executor.execute(AccountSchema.schema, queryAst, new Account())
         result.map{t=>
           Ok(t.toString())
         }
