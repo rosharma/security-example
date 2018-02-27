@@ -39,7 +39,6 @@ trait Entity[T] {
   private def generateId: String = UUID.randomUUID().toString
 
   def getFieldByName(name: String): Field = {
-    println(fields)
     fields.find(_.name == name).getOrElse(throw new FieldTypeException(s"Cannot find field: $name"))
   }
 }
